@@ -1,0 +1,12 @@
+﻿namespace Burger.Entities
+{
+    public class Menu : BaseEntity
+    {
+        public string MenuAdi { get; set; }
+        public decimal Fiyat { get; set; }
+        public string Tanimlama { get; set; }
+        public IList<MenuItem> MenuItem { get; set; }
+
+
+    }
+}
